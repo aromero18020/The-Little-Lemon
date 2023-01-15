@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #EADDCA;
+    color: black;
+    min-height: 100vh;
+}
+
+.navbar-toggler {
+    margin: 0 auto;
+}
+
+/*
+==============================================
+Header Section
+==============================================
+*/
+
+.header-logo {
+    max-width: 90vw;
+    height: auto;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+a.nav-link:hover {
+    color: #a07b3e;
+}
+
+.navbar-nav .nav-link.active {
+    color: #a07b3e;
+    text-decoration: underline;
+}
+
+h2 {
+    padding-top: 2%;
+    text-decoration: underline;
+}
+
+/*
+==============================================
+About Section
+==============================================
+*/
+
+.about-us-container {
+    min-height: 100vh;
+}
+
+.about p {
+    line-height: 3rem;
+    position: relative;
+    top: 60px;
+    font-size: 1.8rem;
+}
+
+.reservation-btn {
+    background-color: #495E57;
+    color: white;
+    position: relative;
+    top: 60px;
+    border-radius: 25px;
+}
+
+.reservation-btn:hover {
+    background-color: #648279;
+    color: white;
+}
+
+.about-img {
+    width: auto;
+    height: 600px;
+}
+
+/*
+==============================================
+Menu Section
+==============================================
+*/
+
+.menu-container {
+    min-height: 100vh;
+}
+
+.nav-link {
+    color: black;
+}
+.nav-item a:after {
+    content: "|";
+    margin-left: 10px;
+    color: #495E57;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.menu-item {
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0.5% auto;
+    padding: 1%;
+}
+
+/*
+==============================================
+Reservations Section
+==============================================
+*/
+
+.reservations-container {
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: #495E57;
+    height: auto;
+    width: 70%;
+    margin: 2% auto;
+}
+
+.reservations-img {
+    width: 80%;
+    height: 70%;
+    margin-top: 2%;
+}
+
+form {
+    padding: 10% 5%;
+    position: relative;
+    top: 5%;
+}
+
+.make-reservation-btn {
+    background-color: #eaddca;
+    color: black;
+    border-radius: 25px;
+}
+
+.make-reservation-btn:hover {
+    color: white;
+    background-color: #68887e;
+}
+
+/*
+==============================================
+Reviews Section
+==============================================
+*/
+.reviews-container {
+    position: relative;
+    top: -20%;
+    max-width: 75%;
+    min-height: 30vh;
+    margin: 0 auto;
+}
+
+.reservation-container-style {
+    height: 60%;
+}
+
+.card-body {
+}
+
+.bi-star-fill {
+    color: gold;
+}
+
+.review-profile-img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+/*
+==============================================
+Footer Section
+==============================================
+*/
+
+.pre-footer-container {
+    margin: 5% auto;
+}
+
+.footer-full-logo {
+    max-width: 20vw;
+    height: auto;
+}
+
+.footer-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.footer-column-container {
+
+}
+
+.submit-btn {
+    background-color: #495E57;
+    color: white;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.submit-btn:hover {
+    background-color: #648279;
+    color: white;
+}
+
+.footer-container {
+    height: auto;
+    background-color: #495E57;
+    margin: auto -12px;
+    overflow: hidden;
+}
+
+footer h3 {
+    color: white;
+}
+
+.social-media-icons {
+    font-size: 36px;
+    color: white;
+}
+
+.social-media-icons:hover {
+    color: #68887e;
+}
+
+.footer-logo {
+    max-width: 3vw;
+    height: auto;
+    padding-top: 15px;
+}
+
+
+
+
+
+
