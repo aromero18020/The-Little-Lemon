@@ -89,6 +89,30 @@ Menu Section
 
 .menu-container {
     min-height: 100vh;
+    overflow: hidden; 
+}
+
+.filterDiv {
+    /* display: none; */
+}
+
+.show {
+    display: inline-block;
+}
+
+.menu-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #a07b3e;
+    color: #fff;
+}
+
+.menu-btn.active {
+color: #a07b3e;
 }
 
 .nav-link {
@@ -114,6 +138,7 @@ Menu Section
     margin: 0.5% auto;
     padding: 1%;
 }
+
 
 /*
 ==============================================

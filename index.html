@@ -68,14 +68,230 @@
 </div>
 </section>
 
+<div id="container">
+    <section class="menu-container" id="menu">
+        <div class="row-gx-5">
+            <div class="col-lg-12">
+                <h2>Our Menu</h2>
+                <div id="myBtnContainer">
+                <button class="menu-btn active" onclick="filterSelection('appetizers')"> Appetizers</button>
+                <button class="menu-btn" onclick="filterSelection('pizzas')"> Pizzas</button>
+                <button class="menu-btn" onclick="filterSelection('pastas')"> Pastas</button>
+                <button class="menu-btn" onclick="filterSelection('salads')"> Salads</button>
+                <button class="menu-btn" onclick="filterSelection('sandwiches')"> Sandwiches</button>
+                <button class="menu-btn" onclick="filterSelection('smoothies')"> Smoothies</button>
+                <button class="menu-btn" onclick="filterSelection('wines')"> Wines</button>
+            </div>
+            </div>
+        </div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<!-- <div class="row-gx-5"> -->
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
+        <img src="./assets/images/menu-item-imgs/appetizers/Cheese-and-grapes.png" alt="Cheese and Grapes" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
+        <img src="./assets/images/menu-item-imgs/appetizers/Bread-and-cheese.png" alt="Bread and Cheese" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
+        <img src="./assets/images/menu-item-imgs/appetizers/Orange-and-grapefruit.png" alt="Orange and Grapefruit" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+<!-- </div> -->
+
+<!-- <div class="row-gx-5"> -->
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
+        <img src="./assets/images/menu-item-imgs/appetizers/rosemary-lemon-Focaccia.png" alt="Rosemary and Lemon Focaccia" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
+        <img src="./assets/images/menu-item-imgs/appetizers/tomato-basil-feta.png" alt="Tomato Basil Feta" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
+        <img src="./assets/images/menu-item-imgs/appetizers/Alvacado-feta-dill.png" alt="Alvacado-Feta-Dill" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+<!-- </div> -->
+
+<!-- <div class="row-gx-5"> -->
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
+        <img src="./assets/images/menu-item-imgs/pizzas/arugula-and-cheese.png" alt="Arugula Jalepeno Cheese Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
+        <img src="./assets/images/menu-item-imgs/pizzas/Fresh-Herbed-Cheese.png" alt="Fresh Herbed Cheese Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
+        <img src="./assets/images/menu-item-imgs/pizzas/Veggie-Pizza.png" alt="Veggie Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+<!-- </div> -->
+
+<!-- <div class="row-gx-5"> -->
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
+        <img src="./assets/images/menu-item-imgs/pizzas/Caprece-Pizza.png" alt="Caprese Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
+        <img src="./assets/images/menu-item-imgs/pizzas/Tomato-Basil-Pizza.png" alt="Tomato Basil Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
+        <img src="./assets/images/menu-item-imgs/pizzas/Smoked-BBQ-Chicken-Pizza.png" alt="Smoked BBQ Chicken Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+<!-- </div> -->
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
+        <img src="" alt="Gourmet Mac&Cheese" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+
+<div class="row-gx-5">
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+
+    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
+        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+    </div>
+</div>
+</section>
+</div>
+
 <!-- Menu Navigation -->
-<div class="container">
+<!-- <div class="container">
 <section class="menu-container" id="menu">
     <div class="row gx-5">
         <div class="col-lg-12">
-            <h2>Our Menu</h2>
+            <h2>Our Menu</h2> -->
     <!-- Menu Navigation -->
-            <nav class="navbar navbar-expand-lg">
+            <!-- <nav class="navbar navbar-expand-lg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -100,16 +316,16 @@
                         <a href="#" class="nav-link">Smoothies</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Wine</a>
+                        <a href="#" class="nav-link">Wines</a>
                     </li>
                 </ul>
                 </div>
             </nav>
         </div>
-    </div>
+    </div> -->
 
 <!-- Menu Items -->
-<div class="row gx-5">
+<!-- <div class="row gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item">
         <img src="./assets/images/menu-item-imgs/appetizers/Cheese-and-grapes.png" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
@@ -132,7 +348,7 @@
     </div>
 </div>
 </section>
-</div>
+</div> -->
 
 <!-- Reservations -->
 <div class="container-fluid">
@@ -303,5 +519,6 @@
 </div>
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/app.js"></script>
 </body>
 </html>
