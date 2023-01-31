@@ -74,7 +74,8 @@
             <div class="col-lg-12">
                 <h2>Our Menu</h2>
                 <div id="myBtnContainer">
-                <button class="menu-btn active" onclick="filterSelection('appetizers')"> Appetizers</button>
+                <button class="menu-btn active" onclick="filterSelection('all')"> All</button>
+                <button class="menu-btn" onclick="filterSelection('appetizers')"> Appetizers</button>
                 <button class="menu-btn" onclick="filterSelection('pizzas')"> Pizzas</button>
                 <button class="menu-btn" onclick="filterSelection('pastas')"> Pastas</button>
                 <button class="menu-btn" onclick="filterSelection('salads')"> Salads</button>
@@ -86,9 +87,15 @@
         </div>
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
-<!-- <div class="row-gx-5"> -->
+<div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
         <img src="./assets/images/menu-item-imgs/appetizers/Cheese-and-grapes.png" alt="Cheese and Grapes" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <div class="menu-item-overlay">
+        <div class="menu-item-text">
+            <h3>Cheese & Grapes</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit labore hic soluta ipsa, suscipit voluptatum tempore? Vero, consequatur quo. Ullam dolor modi nisi, delectus illum quam. Hic eius fugit distinctio.</p>
+        </div>
+        </div>
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
@@ -98,9 +105,9 @@
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
         <img src="./assets/images/menu-item-imgs/appetizers/Orange-and-grapefruit.png" alt="Orange and Grapefruit" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
-<!-- </div> -->
+</div>
 
-<!-- <div class="row-gx-5"> -->
+<div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
         <img src="./assets/images/menu-item-imgs/appetizers/rosemary-lemon-Focaccia.png" alt="Rosemary and Lemon Focaccia" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
@@ -109,12 +116,12 @@
         <img src="./assets/images/menu-item-imgs/appetizers/tomato-basil-feta.png" alt="Tomato Basil Feta" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
-    <div class="col-lg-4 menu-item-container text-center menu-item filterDiv appetizers">
+    <div class="col-g-4 menu-item-container text-center menu-item filterDiv appetizers">
         <img src="./assets/images/menu-item-imgs/appetizers/Alvacado-feta-dill.png" alt="Alvacado-Feta-Dill" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
-<!-- </div> -->
+</div>
 
-<!-- <div class="row-gx-5"> -->
+<div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
         <img src="./assets/images/menu-item-imgs/pizzas/arugula-and-cheese.png" alt="Arugula Jalepeno Cheese Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
@@ -126,9 +133,9 @@
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
         <img src="./assets/images/menu-item-imgs/pizzas/Veggie-Pizza.png" alt="Veggie Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
-<!-- </div> -->
+</div>
 
-<!-- <div class="row-gx-5"> -->
+<div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
         <img src="./assets/images/menu-item-imgs/pizzas/Caprece-Pizza.png" alt="Caprese Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
@@ -140,215 +147,149 @@
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pizzas">
         <img src="./assets/images/menu-item-imgs/pizzas/Smoked-BBQ-Chicken-Pizza.png" alt="Smoked BBQ Chicken Pizza" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
-<!-- </div> -->
+</div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
-        <img src="" alt="Gourmet Mac&Cheese" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/pastas/Gourmet-Mac-and-Cheese.png" alt="Gourmet Mac&Cheese" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/pastas/Creamy-Lemon-Ricatta-Ravioli.png" alt="Creamy Lemon Ricatta Ravioli" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/pastas/Tomato-Basil-Noodles-and-Couscous.png" alt="Tomato-Basil-Noodles-and-Couscous" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/pastas/Chilled-Pesto-Noodle-Salad.png" alt="Chilled-Pesto-Noodle-Salad" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/pastas/Sphagetti-and-Vegan-Meatballs.png" alt="Sphagetti-and-Vegan-Meatballs" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv pastas">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/pastas/Lemon-Garlic-Pata.png" alt="Lemon-Garlic-Pata" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/salads/Strawberry-Vinigarette-Salad.png" alt="Strawberry-Vinigarette-Salad" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/salads/Tuna-Chef-Salad.png" alt="Tuna-Chef-Salad" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/salads/Vegan-Tofu-Protien-Bowl.png" alt="Vegan-Tofu-Protien-Bowl" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/salads/Feta-Veggie-Salad.png" alt="Feta-Veggie-Salad" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/salads/Sweet-Apple-Salad.png" alt="Sweet-Apple-Salad" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv salads">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/salads/Strawberry-Chipolte-Salad.png" alt="Strawberry-Chipolte-Salad" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/sandwichs/Egg-Alvocado-Toast.png" alt="Egg-Alvocado-Toast" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/sandwichs/Tomato-Basil-Pannini.png" alt="Tomato-Basil-Pannini" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/sandwichs/Veggie-Toast.png" alt="Veggie-Toast" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/sandwichs/Egg-and-Turkey-Bagel-Sandwich.png" alt="Egg-and-Turkey-Bagel-Sandwich" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/sandwichs/Egg-Arugula-Toast.png" alt="Egg-Arugula-Toast" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv sandwiches">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/sandwichs/Spicy-Italian-Sandwich.png" alt="Spicy-Italian-Sandwich" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/smoothies/Fruity-Alvocado-Smoothie.png" alt="Fruity-Alvocado-Smoothie" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/smoothies/Lemon-Pomegranite-Smoothie.png" alt="Lemon-Pomegranite-Smoothie" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/smoothies/Pinapple-Cocunut-Smoothie.png" alt="Pinapple-Cocunut-Smoothie" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/smoothies/Berry Smoothie.png" alt="Berry-Smoothie" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/smoothies/Green-Smoothie.png" alt="Green-Smoothie" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv smoothies">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/smoothies/Strawberry-Pinapple-Smoothie.png" alt="Strawberry-Pinapple-Smoothie" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/wines/Orange-Citrus-Champagne.png" alt="Orange-Citrus-Champagne" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/wines/Sparkling-Rose.png" alt="Sparkling-Rose" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/wines/Lemon-Fig-White-Wine.png" alt="Lemon-Fig-White-Wine" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 
 <div class="row-gx-5">
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/wines/Lime-Mint-Chardonet.png" alt="Lime-Mint-Chardonet" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/wines/Rosemary-grapefruit-wine.png" alt="Rosemary-grapefruit-wine" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 
     <div class="col-lg-4 menu-item-container text-center menu-item filterDiv wines">
-        <img src="" alt="" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
+        <img src="./assets/images/menu-item-imgs/wines/White-Wine.png" alt="White-Wine" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
     </div>
 </div>
 </section>
 </div>
-
-<!-- Menu Navigation -->
-<!-- <div class="container">
-<section class="menu-container" id="menu">
-    <div class="row gx-5">
-        <div class="col-lg-12">
-            <h2>Our Menu</h2> -->
-    <!-- Menu Navigation -->
-            <!-- <nav class="navbar navbar-expand-lg">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse menu-nav" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active">Appetizers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Pizzas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Pastas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Salads</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Sandwiches</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Smoothies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Wines</a>
-                    </li>
-                </ul>
-                </div>
-            </nav>
-        </div>
-    </div> -->
-
-<!-- Menu Items -->
-<!-- <div class="row gx-5">
-    <div class="col-lg-4 menu-item-container text-center menu-item">
-        <img src="./assets/images/menu-item-imgs/appetizers/Cheese-and-grapes.png" class="rounded float-start img-thumbnail img-fluid menu-item img-responsive center-block">
-    </div>
-    <div class="col-lg-4 menu-item-container text-center menu-item">
-        <img src="./assets/images/menu-item-imgs/appetizers/Bread-and-cheese.png" class="rounded mx-auto d-block img-thumbnail img-fluid menu-item">
-    </div>
-    <div class="col-lg-4 menu-item-container text-center menu-item">
-        <img src="./assets/images/menu-item-imgs/appetizers/Orange-and-grapefruit.png" class="rounded float-end img-thumbnail img-fluid menu-item">
-    </div>
-</div>
-<div class="row gx-5">
-    <div class="col-lg-4 menu-item-container menu-item">
-        <img src="./assets/images/menu-item-imgs/appetizers/rosemary-lemon-Focaccia.png" alt="" class="rounded float-start img-thumbnail img-fluid menu-item">
-    </div>
-    <div class="col-lg-4 menu-item-container menu-item">
-        <img src="./assets/images/menu-item-imgs/appetizers/tomato-basil-feta.png" alt="" class="rounded mx-auto d-block img-thumbnail img-fluid menu-item">
-    </div>
-    <div class="col-lg-4 menu-item-container menu-item">
-        <img src="./assets/images/menu-item-imgs/appetizers/Alvacado-feta-dill.png" alt="" class="rounded float-end img-thumbnail img-fluid menu-item">
-    </div>
-</div>
-</section>
-</div> -->
 
 <!-- Reservations -->
 <div class="container-fluid">
